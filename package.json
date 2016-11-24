@@ -1,0 +1,36 @@
+{
+  "name": "@exoplay/exobot-adapter-beam",
+  "version": "1.0.0",
+  "description": "exobot adapter for beam",
+  "main": "beam.js",
+  "scripts": {
+    "build": "exobot build -i src/beam.js -o beam.js",
+    "watch": "exobot build --watch -i src/beam.js -o beam.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exoplay/exobot-adapter-beam.git"
+  },
+  "keywords": [
+    "exobot",
+    "chat",
+    "bot",
+    "beam"
+  ],
+  "author": "Jack Lawson <ajacksified@gmail.com>",
+  "license": "LGPL",
+  "bugs": {
+    "url": "https://github.com/exoplay/exobot-adapter-beam/issues"
+  },
+  "homepage": "https://github.com/exoplay/exobot-adapter-beam#readme",
+  "dependencies": {
+    "beam-client-node": "^0.10.1"
+  },
+  "peerDependencies": {
+    "@exoplay/exobot": "3.x"
+  },
+  "devDependencies": {
+    "@exoplay/exobot": "3.x",
+    "@exoplay/exobot-build": "^0.0.6"
+  }
+}
