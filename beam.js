@@ -1,2 +1,318 @@
-require("source-map-support").install(),require("regenerator-runtime/runtime"),function(m,r){for(var e in r)m[e]=r[e]}(exports,function(m){function r(n){if(e[n])return e[n].exports;var t=e[n]={i:n,l:!1,exports:{}};return m[n].call(t.exports,t,t.exports,r),t.l=!0,t.exports}var e={};return r.m=m,r.c=e,r.i=function(m){return m},r.d=function(m,r,e){Object.defineProperty(m,r,{configurable:!1,enumerable:!0,get:e})},r.n=function(m){var e=m&&m.__esModule?function(){return m.default}:function(){return m};return r.d(e,"a",e),e},r.o=function(m,r){return Object.prototype.hasOwnProperty.call(m,r)},r.p="",r(r.s=0)}([function(m,r){throw new Error("Module build failed: SyntaxError: Missing catch or finally clause (122:4)\n\n[0m [90m 120 | [39m    [36mif[39m (user) { [36mreturn[39m user[33m.[39mid[33m;[39m }\n [90m 121 | [39m\n[31m[1m>[22m[39m[90m 122 | [39m    [36mtry[39m {\n [90m     | [39m    [31m[1m^[22m[39m\n [90m 123 | [39m      [36mconst[39m res [33m=[39m await [36mthis[39m[33m.[39mclient[33m.[39mrequest([32m'/GET'[39m[33m,[39m [32m'users/search'[39m[33m,[39m {\n [90m 124 | [39m        qs[33m:[39m {\n [90m 125 | [39m          where[33m:[39m [32m`username:eq:${name}`[39m[0m\n")}]));
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vYmVhbS5qcyIsIndlYnBhY2s6Ly8vd2VicGFjay9ib290c3RyYXAgNmE0OWVkNWI4YjRhZDdhZWMwMmIiXSwibmFtZXMiOlsicmVxdWlyZSIsImluc3RhbGwiLCJlIiwiYSIsImkiLCJleHBvcnRzIiwibW9kdWxlcyIsIl9fd2VicGFja19yZXF1aXJlX18iLCJtb2R1bGVJZCIsImluc3RhbGxlZE1vZHVsZXMiLCJtb2R1bGUiLCJsIiwiY2FsbCIsIm0iLCJjIiwidmFsdWUiLCJkIiwibmFtZSIsImdldHRlciIsIk9iamVjdCIsImRlZmluZVByb3BlcnR5IiwiY29uZmlndXJhYmxlIiwiZW51bWVyYWJsZSIsImdldCIsIm4iLCJfX2VzTW9kdWxlIiwibyIsIm9iamVjdCIsInByb3BlcnR5IiwicHJvdG90eXBlIiwiaGFzT3duUHJvcGVydHkiLCJwIiwicyIsIkVycm9yIl0sIm1hcHBpbmdzIjoiQUFBQUEsUUFBUSxzQkFBc0JDLFVBQVVELFFBQVEsK0JBQy9DLFNBQVNFLEVBQUdDLEdBQUssSUFBSSxHQUFJQyxLQUFLRCxHQUFHRCxFQUFFRSxHQUFLRCxFQUFFQyxJQUFNQyxRQUFrQixTQUFVQyxHQ0c3RSxRQUFBQyxHQUFBQyxHQUdBLEdBQUFDLEVBQUFELEdBQ0EsTUFBQUMsR0FBQUQsR0FBQUgsT0FHQSxJQUFBSyxHQUFBRCxFQUFBRCxJQUNBSixFQUFBSSxFQUNBRyxHQUFBLEVBQ0FOLFdBVUEsT0FOQUMsR0FBQUUsR0FBQUksS0FBQUYsRUFBQUwsUUFBQUssSUFBQUwsUUFBQUUsR0FHQUcsRUFBQUMsR0FBQSxFQUdBRCxFQUFBTCxRQXZCQSxHQUFBSSxLQTZEQSxPQWpDQUYsR0FBQU0sRUFBQVAsRUFHQUMsRUFBQU8sRUFBQUwsRUFHQUYsRUFBQUgsRUFBQSxTQUFBVyxHQUEyQyxNQUFBQSxJQUczQ1IsRUFBQVMsRUFBQSxTQUFBWCxFQUFBWSxFQUFBQyxHQUNBQyxPQUFBQyxlQUFBZixFQUFBWSxHQUNBSSxjQUFBLEVBQ0FDLFlBQUEsRUFDQUMsSUFBQUwsS0FLQVgsRUFBQWlCLEVBQUEsU0FBQWQsR0FDQSxHQUFBUSxHQUFBUixLQUFBZSxXQUNBLFdBQTJCLE1BQUFmLEdBQUEsU0FDM0IsV0FBaUMsTUFBQUEsR0FFakMsT0FEQUgsR0FBQVMsRUFBQUUsRUFBQSxJQUFBQSxHQUNBQSxHQUlBWCxFQUFBbUIsRUFBQSxTQUFBQyxFQUFBQyxHQUFzRCxNQUFBVCxRQUFBVSxVQUFBQyxlQUFBbEIsS0FBQWUsRUFBQUMsSUFHdERyQixFQUFBd0IsRUFBQSxHQUdBeEIsSUFBQXlCLEVBQUEsS0RPTSxTQUFTdEIsRUFBUUwsR0FFdkIsS0FBTSxJQUFJNEIsT0FBTSIsImZpbGUiOiJiZWFtLmpzIiwic291cmNlc0NvbnRlbnQiOlsicmVxdWlyZShcInNvdXJjZS1tYXAtc3VwcG9ydFwiKS5pbnN0YWxsKCk7cmVxdWlyZShcInJlZ2VuZXJhdG9yLXJ1bnRpbWUvcnVudGltZVwiKTtcbihmdW5jdGlvbihlLCBhKSB7IGZvcih2YXIgaSBpbiBhKSBlW2ldID0gYVtpXTsgfShleHBvcnRzLCAvKioqKioqLyAoZnVuY3Rpb24obW9kdWxlcykgeyAvLyB3ZWJwYWNrQm9vdHN0cmFwXG4vKioqKioqLyBcdC8vIFRoZSBtb2R1bGUgY2FjaGVcbi8qKioqKiovIFx0dmFyIGluc3RhbGxlZE1vZHVsZXMgPSB7fTtcbi8qKioqKiovXG4vKioqKioqLyBcdC8vIFRoZSByZXF1aXJlIGZ1bmN0aW9uXG4vKioqKioqLyBcdGZ1bmN0aW9uIF9fd2VicGFja19yZXF1aXJlX18obW9kdWxlSWQpIHtcbi8qKioqKiovXG4vKioqKioqLyBcdFx0Ly8gQ2hlY2sgaWYgbW9kdWxlIGlzIGluIGNhY2hlXG4vKioqKioqLyBcdFx0aWYoaW5zdGFsbGVkTW9kdWxlc1ttb2R1bGVJZF0pXG4vKioqKioqLyBcdFx0XHRyZXR1cm4gaW5zdGFsbGVkTW9kdWxlc1ttb2R1bGVJZF0uZXhwb3J0cztcbi8qKioqKiovXG4vKioqKioqLyBcdFx0Ly8gQ3JlYXRlIGEgbmV3IG1vZHVsZSAoYW5kIHB1dCBpdCBpbnRvIHRoZSBjYWNoZSlcbi8qKioqKiovIFx0XHR2YXIgbW9kdWxlID0gaW5zdGFsbGVkTW9kdWxlc1ttb2R1bGVJZF0gPSB7XG4vKioqKioqLyBcdFx0XHRpOiBtb2R1bGVJZCxcbi8qKioqKiovIFx0XHRcdGw6IGZhbHNlLFxuLyoqKioqKi8gXHRcdFx0ZXhwb3J0czoge31cbi8qKioqKiovIFx0XHR9O1xuLyoqKioqKi9cbi8qKioqKiovIFx0XHQvLyBFeGVjdXRlIHRoZSBtb2R1bGUgZnVuY3Rpb25cbi8qKioqKiovIFx0XHRtb2R1bGVzW21vZHVsZUlkXS5jYWxsKG1vZHVsZS5leHBvcnRzLCBtb2R1bGUsIG1vZHVsZS5leHBvcnRzLCBfX3dlYnBhY2tfcmVxdWlyZV9fKTtcbi8qKioqKiovXG4vKioqKioqLyBcdFx0Ly8gRmxhZyB0aGUgbW9kdWxlIGFzIGxvYWRlZFxuLyoqKioqKi8gXHRcdG1vZHVsZS5sID0gdHJ1ZTtcbi8qKioqKiovXG4vKioqKioqLyBcdFx0Ly8gUmV0dXJuIHRoZSBleHBvcnRzIG9mIHRoZSBtb2R1bGVcbi8qKioqKiovIFx0XHRyZXR1cm4gbW9kdWxlLmV4cG9ydHM7XG4vKioqKioqLyBcdH1cbi8qKioqKiovXG4vKioqKioqL1xuLyoqKioqKi8gXHQvLyBleHBvc2UgdGhlIG1vZHVsZXMgb2JqZWN0IChfX3dlYnBhY2tfbW9kdWxlc19fKVxuLyoqKioqKi8gXHRfX3dlYnBhY2tfcmVxdWlyZV9fLm0gPSBtb2R1bGVzO1xuLyoqKioqKi9cbi8qKioqKiovIFx0Ly8gZXhwb3NlIHRoZSBtb2R1bGUgY2FjaGVcbi8qKioqKiovIFx0X193ZWJwYWNrX3JlcXVpcmVfXy5jID0gaW5zdGFsbGVkTW9kdWxlcztcbi8qKioqKiovXG4vKioqKioqLyBcdC8vIGlkZW50aXR5IGZ1bmN0aW9uIGZvciBjYWxsaW5nIGhhcm1vcnkgaW1wb3J0cyB3aXRoIHRoZSBjb3JyZWN0IGNvbnRleHRcbi8qKioqKiovIFx0X193ZWJwYWNrX3JlcXVpcmVfXy5pID0gZnVuY3Rpb24odmFsdWUpIHsgcmV0dXJuIHZhbHVlOyB9O1xuLyoqKioqKi9cbi8qKioqKiovIFx0Ly8gZGVmaW5lIGdldHRlciBmdW5jdGlvbiBmb3IgaGFybW9yeSBleHBvcnRzXG4vKioqKioqLyBcdF9fd2VicGFja19yZXF1aXJlX18uZCA9IGZ1bmN0aW9uKGV4cG9ydHMsIG5hbWUsIGdldHRlcikge1xuLyoqKioqKi8gXHRcdE9iamVjdC5kZWZpbmVQcm9wZXJ0eShleHBvcnRzLCBuYW1lLCB7XG4vKioqKioqLyBcdFx0XHRjb25maWd1cmFibGU6IGZhbHNlLFxuLyoqKioqKi8gXHRcdFx0ZW51bWVyYWJsZTogdHJ1ZSxcbi8qKioqKiovIFx0XHRcdGdldDogZ2V0dGVyXG4vKioqKioqLyBcdFx0fSk7XG4vKioqKioqLyBcdH07XG4vKioqKioqL1xuLyoqKioqKi8gXHQvLyBnZXREZWZhdWx0RXhwb3J0IGZ1bmN0aW9uIGZvciBjb21wYXRpYmlsaXR5IHdpdGggbm9uLWhhcm1vbnkgbW9kdWxlc1xuLyoqKioqKi8gXHRfX3dlYnBhY2tfcmVxdWlyZV9fLm4gPSBmdW5jdGlvbihtb2R1bGUpIHtcbi8qKioqKiovIFx0XHR2YXIgZ2V0dGVyID0gbW9kdWxlICYmIG1vZHVsZS5fX2VzTW9kdWxlID9cbi8qKioqKiovIFx0XHRcdGZ1bmN0aW9uIGdldERlZmF1bHQoKSB7IHJldHVybiBtb2R1bGVbJ2RlZmF1bHQnXTsgfSA6XG4vKioqKioqLyBcdFx0XHRmdW5jdGlvbiBnZXRNb2R1bGVFeHBvcnRzKCkgeyByZXR1cm4gbW9kdWxlOyB9O1xuLyoqKioqKi8gXHRcdF9fd2VicGFja19yZXF1aXJlX18uZChnZXR0ZXIsICdhJywgZ2V0dGVyKTtcbi8qKioqKiovIFx0XHRyZXR1cm4gZ2V0dGVyO1xuLyoqKioqKi8gXHR9O1xuLyoqKioqKi9cbi8qKioqKiovIFx0Ly8gT2JqZWN0LnByb3RvdHlwZS5oYXNPd25Qcm9wZXJ0eS5jYWxsXG4vKioqKioqLyBcdF9fd2VicGFja19yZXF1aXJlX18ubyA9IGZ1bmN0aW9uKG9iamVjdCwgcHJvcGVydHkpIHsgcmV0dXJuIE9iamVjdC5wcm90b3R5cGUuaGFzT3duUHJvcGVydHkuY2FsbChvYmplY3QsIHByb3BlcnR5KTsgfTtcbi8qKioqKiovXG4vKioqKioqLyBcdC8vIF9fd2VicGFja19wdWJsaWNfcGF0aF9fXG4vKioqKioqLyBcdF9fd2VicGFja19yZXF1aXJlX18ucCA9IFwiXCI7XG4vKioqKioqL1xuLyoqKioqKi8gXHQvLyBMb2FkIGVudHJ5IG1vZHVsZSBhbmQgcmV0dXJuIGV4cG9ydHNcbi8qKioqKiovIFx0cmV0dXJuIF9fd2VicGFja19yZXF1aXJlX18oX193ZWJwYWNrX3JlcXVpcmVfXy5zID0gMCk7XG4vKioqKioqLyB9KVxuLyoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKi9cbi8qKioqKiovIChbXG4vKiAwICovXG4vKioqLyBmdW5jdGlvbihtb2R1bGUsIGV4cG9ydHMpIHtcblxudGhyb3cgbmV3IEVycm9yKFwiTW9kdWxlIGJ1aWxkIGZhaWxlZDogU3ludGF4RXJyb3I6IE1pc3NpbmcgY2F0Y2ggb3IgZmluYWxseSBjbGF1c2UgKDEyMjo0KVxcblxcblxcdTAwMWJbMG0gXFx1MDAxYls5MG0gMTIwIHwgXFx1MDAxYlszOW0gICAgXFx1MDAxYlszNm1pZlxcdTAwMWJbMzltICh1c2VyKSB7IFxcdTAwMWJbMzZtcmV0dXJuXFx1MDAxYlszOW0gdXNlclxcdTAwMWJbMzNtLlxcdTAwMWJbMzltaWRcXHUwMDFiWzMzbTtcXHUwMDFiWzM5bSB9XFxuIFxcdTAwMWJbOTBtIDEyMSB8IFxcdTAwMWJbMzltXFxuXFx1MDAxYlszMW1cXHUwMDFiWzFtPlxcdTAwMWJbMjJtXFx1MDAxYlszOW1cXHUwMDFiWzkwbSAxMjIgfCBcXHUwMDFiWzM5bSAgICBcXHUwMDFiWzM2bXRyeVxcdTAwMWJbMzltIHtcXG4gXFx1MDAxYls5MG0gICAgIHwgXFx1MDAxYlszOW0gICAgXFx1MDAxYlszMW1cXHUwMDFiWzFtXlxcdTAwMWJbMjJtXFx1MDAxYlszOW1cXG4gXFx1MDAxYls5MG0gMTIzIHwgXFx1MDAxYlszOW0gICAgICBcXHUwMDFiWzM2bWNvbnN0XFx1MDAxYlszOW0gcmVzIFxcdTAwMWJbMzNtPVxcdTAwMWJbMzltIGF3YWl0IFxcdTAwMWJbMzZtdGhpc1xcdTAwMWJbMzltXFx1MDAxYlszM20uXFx1MDAxYlszOW1jbGllbnRcXHUwMDFiWzMzbS5cXHUwMDFiWzM5bXJlcXVlc3QoXFx1MDAxYlszMm0nL0dFVCdcXHUwMDFiWzM5bVxcdTAwMWJbMzNtLFxcdTAwMWJbMzltIFxcdTAwMWJbMzJtJ3VzZXJzL3NlYXJjaCdcXHUwMDFiWzM5bVxcdTAwMWJbMzNtLFxcdTAwMWJbMzltIHtcXG4gXFx1MDAxYls5MG0gMTI0IHwgXFx1MDAxYlszOW0gICAgICAgIHFzXFx1MDAxYlszM206XFx1MDAxYlszOW0ge1xcbiBcXHUwMDFiWzkwbSAxMjUgfCBcXHUwMDFiWzM5bSAgICAgICAgICB3aGVyZVxcdTAwMWJbMzNtOlxcdTAwMWJbMzltIFxcdTAwMWJbMzJtYHVzZXJuYW1lOmVxOiR7bmFtZX1gXFx1MDAxYlszOW1cXHUwMDFiWzBtXFxuXCIpO1xuXG4vKioqLyB9XG4vKioqKioqLyBdKSkpO1xuXG5cbi8vIFdFQlBBQ0sgRk9PVEVSIC8vXG4vLyBiZWFtLmpzIiwiIFx0Ly8gVGhlIG1vZHVsZSBjYWNoZVxuIFx0dmFyIGluc3RhbGxlZE1vZHVsZXMgPSB7fTtcblxuIFx0Ly8gVGhlIHJlcXVpcmUgZnVuY3Rpb25cbiBcdGZ1bmN0aW9uIF9fd2VicGFja19yZXF1aXJlX18obW9kdWxlSWQpIHtcblxuIFx0XHQvLyBDaGVjayBpZiBtb2R1bGUgaXMgaW4gY2FjaGVcbiBcdFx0aWYoaW5zdGFsbGVkTW9kdWxlc1ttb2R1bGVJZF0pXG4gXHRcdFx0cmV0dXJuIGluc3RhbGxlZE1vZHVsZXNbbW9kdWxlSWRdLmV4cG9ydHM7XG5cbiBcdFx0Ly8gQ3JlYXRlIGEgbmV3IG1vZHVsZSAoYW5kIHB1dCBpdCBpbnRvIHRoZSBjYWNoZSlcbiBcdFx0dmFyIG1vZHVsZSA9IGluc3RhbGxlZE1vZHVsZXNbbW9kdWxlSWRdID0ge1xuIFx0XHRcdGk6IG1vZHVsZUlkLFxuIFx0XHRcdGw6IGZhbHNlLFxuIFx0XHRcdGV4cG9ydHM6IHt9XG4gXHRcdH07XG5cbiBcdFx0Ly8gRXhlY3V0ZSB0aGUgbW9kdWxlIGZ1bmN0aW9uXG4gXHRcdG1vZHVsZXNbbW9kdWxlSWRdLmNhbGwobW9kdWxlLmV4cG9ydHMsIG1vZHVsZSwgbW9kdWxlLmV4cG9ydHMsIF9fd2VicGFja19yZXF1aXJlX18pO1xuXG4gXHRcdC8vIEZsYWcgdGhlIG1vZHVsZSBhcyBsb2FkZWRcbiBcdFx0bW9kdWxlLmwgPSB0cnVlO1xuXG4gXHRcdC8vIFJldHVybiB0aGUgZXhwb3J0cyBvZiB0aGUgbW9kdWxlXG4gXHRcdHJldHVybiBtb2R1bGUuZXhwb3J0cztcbiBcdH1cblxuXG4gXHQvLyBleHBvc2UgdGhlIG1vZHVsZXMgb2JqZWN0IChfX3dlYnBhY2tfbW9kdWxlc19fKVxuIFx0X193ZWJwYWNrX3JlcXVpcmVfXy5tID0gbW9kdWxlcztcblxuIFx0Ly8gZXhwb3NlIHRoZSBtb2R1bGUgY2FjaGVcbiBcdF9fd2VicGFja19yZXF1aXJlX18uYyA9IGluc3RhbGxlZE1vZHVsZXM7XG5cbiBcdC8vIGlkZW50aXR5IGZ1bmN0aW9uIGZvciBjYWxsaW5nIGhhcm1vcnkgaW1wb3J0cyB3aXRoIHRoZSBjb3JyZWN0IGNvbnRleHRcbiBcdF9fd2VicGFja19yZXF1aXJlX18uaSA9IGZ1bmN0aW9uKHZhbHVlKSB7IHJldHVybiB2YWx1ZTsgfTtcblxuIFx0Ly8gZGVmaW5lIGdldHRlciBmdW5jdGlvbiBmb3IgaGFybW9yeSBleHBvcnRzXG4gXHRfX3dlYnBhY2tfcmVxdWlyZV9fLmQgPSBmdW5jdGlvbihleHBvcnRzLCBuYW1lLCBnZXR0ZXIpIHtcbiBcdFx0T2JqZWN0LmRlZmluZVByb3BlcnR5KGV4cG9ydHMsIG5hbWUsIHtcbiBcdFx0XHRjb25maWd1cmFibGU6IGZhbHNlLFxuIFx0XHRcdGVudW1lcmFibGU6IHRydWUsXG4gXHRcdFx0Z2V0OiBnZXR0ZXJcbiBcdFx0fSk7XG4gXHR9O1xuXG4gXHQvLyBnZXREZWZhdWx0RXhwb3J0IGZ1bmN0aW9uIGZvciBjb21wYXRpYmlsaXR5IHdpdGggbm9uLWhhcm1vbnkgbW9kdWxlc1xuIFx0X193ZWJwYWNrX3JlcXVpcmVfXy5uID0gZnVuY3Rpb24obW9kdWxlKSB7XG4gXHRcdHZhciBnZXR0ZXIgPSBtb2R1bGUgJiYgbW9kdWxlLl9fZXNNb2R1bGUgP1xuIFx0XHRcdGZ1bmN0aW9uIGdldERlZmF1bHQoKSB7IHJldHVybiBtb2R1bGVbJ2RlZmF1bHQnXTsgfSA6XG4gXHRcdFx0ZnVuY3Rpb24gZ2V0TW9kdWxlRXhwb3J0cygpIHsgcmV0dXJuIG1vZHVsZTsgfTtcbiBcdFx0X193ZWJwYWNrX3JlcXVpcmVfXy5kKGdldHRlciwgJ2EnLCBnZXR0ZXIpO1xuIFx0XHRyZXR1cm4gZ2V0dGVyO1xuIFx0fTtcblxuIFx0Ly8gT2JqZWN0LnByb3RvdHlwZS5oYXNPd25Qcm9wZXJ0eS5jYWxsXG4gXHRfX3dlYnBhY2tfcmVxdWlyZV9fLm8gPSBmdW5jdGlvbihvYmplY3QsIHByb3BlcnR5KSB7IHJldHVybiBPYmplY3QucHJvdG90eXBlLmhhc093blByb3BlcnR5LmNhbGwob2JqZWN0LCBwcm9wZXJ0eSk7IH07XG5cbiBcdC8vIF9fd2VicGFja19wdWJsaWNfcGF0aF9fXG4gXHRfX3dlYnBhY2tfcmVxdWlyZV9fLnAgPSBcIlwiO1xuXG4gXHQvLyBMb2FkIGVudHJ5IG1vZHVsZSBhbmQgcmV0dXJuIGV4cG9ydHNcbiBcdHJldHVybiBfX3dlYnBhY2tfcmVxdWlyZV9fKF9fd2VicGFja19yZXF1aXJlX18ucyA9IDApO1xuXG5cblxuLy8gV0VCUEFDSyBGT09URVIgLy9cbi8vIHdlYnBhY2svYm9vdHN0cmFwIDZhNDllZDViOGI0YWQ3YWVjMDJiIl0sInNvdXJjZVJvb3QiOiIifQ==
+require("source-map-support").install();require("regenerator-runtime/runtime");
+(function(e, a) { for(var i in a) e[i] = a[i]; }(exports, /******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId])
+/******/ 			return installedModules[moduleId].exports;
+/******/
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// identity function for calling harmony imports with the correct context
+/******/ 	__webpack_require__.i = function(value) { return value; };
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, {
+/******/ 				configurable: false,
+/******/ 				enumerable: true,
+/******/ 				get: getter
+/******/ 			});
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ function(module, exports) {
+
+module.exports = require("@exoplay/exobot");
+
+/***/ },
+/* 1 */
+/***/ function(module, exports) {
+
+module.exports = require("beam-client-node");
+
+/***/ },
+/* 2 */
+/***/ function(module, exports) {
+
+module.exports = require("beam-client-node/lib/ws");
+
+/***/ },
+/* 3 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_beam_client_node__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_beam_client_node___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_beam_client_node__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_beam_client_node_lib_ws__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_beam_client_node_lib_ws___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_beam_client_node_lib_ws__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__exoplay_exobot__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__exoplay_exobot___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__exoplay_exobot__);
+/* harmony export (binding) */ __webpack_require__.d(exports, "default", function() { return BeamAdapter; });
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || !1; descriptor.configurable = !0; if ("value" in descriptor) descriptor.writable = !0; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === void 0) { var parent = Object.getPrototypeOf(object); if (parent === null) { return; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === void 0) { return; } return getter.call(receiver); } };
+
+var _class, _temp;
+
+function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg), value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: !1, writable: !0, configurable: !0 } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+
+
+const EVENTS = {
+  ChatMessage: 'beamMessage'
+};
+/* harmony export (immutable) */ exports["EVENTS"] = EVENTS;
+
+
+let BeamAdapter = (_temp = _class = function (_Adapter) {
+  _inherits(BeamAdapter, _Adapter);
+
+  function BeamAdapter({ username, password }) {
+    _classCallCheck(this, BeamAdapter);
+
+    var _this = _possibleConstructorReturn(this, (BeamAdapter.__proto__ || Object.getPrototypeOf(BeamAdapter)).apply(this, arguments));
+
+    _this.userCache = {};
+
+    _this.joinChannel = res => {
+      _this.beamUser = res.body;
+      return _this.client.chat.join(res.body.channel.id);
+    };
+
+    _this.createSocket = () => {
+      const body = response.body,
+            userId = _this.beamUser.id,
+            channelId = _this.beamUser.channel.id,
+            endpoints = body.endpoitns;
+
+      body.authKey;
+
+
+      _this.socket = new __WEBPACK_IMPORTED_MODULE_1_beam_client_node_lib_ws___default.a(endpoints).boot();
+
+      Object.keys(EVENTS).forEach(beamEvent => {
+        const mappedFn = _this[EVENTS[beamEvent]];
+        _this.socket.on(beamEvent, (...args) => mappedFn.bind(_this)(...args));
+        _this.socket.on(beamEvent, (...args) => {
+          _this.bot.emitter.emit(`beam-${ beamEvent }`, ...args);
+        });
+      });
+
+      return _this.socket.auth(channelId, userId, authkey).then(() => {
+        _this.status = __WEBPACK_IMPORTED_MODULE_2__exoplay_exobot__["Adapter"].STATUS.CONNECTED;
+
+        _this.bot.emitter.emit('connected', _this.name);
+        _this.bot.log.notice('Connected to Beam.');
+      }).catch(err => _this.bot.log.error(err));
+    };
+
+    _this.username = username;
+    _this.password = password;
+    return _this;
+  }
+
+  _createClass(BeamAdapter, [{
+    key: 'register',
+    value: function register(bot) {
+      _get(BeamAdapter.prototype.__proto__ || Object.getPrototypeOf(BeamAdapter.prototype), 'register', this).apply(this, arguments);
+      const { username, password } = this;
+
+      if (!username || !password) {
+        this.status = __WEBPACK_IMPORTED_MODULE_2__exoplay_exobot__["Adapter"].STATUS.ERROR;
+        bot.log.error('username and password are required to connect to Beam.');
+        return;
+      }
+
+      this.client = new __WEBPACK_IMPORTED_MODULE_0_beam_client_node___default.a();
+      this.client.use('password', {
+        username,
+        password
+      }).attempt().then(this.joinChannel).then(this.createSocket).catch(err => {
+        bot.log.error(err);
+      });
+    }
+  }, {
+    key: 'send',
+    value: function send(message) {
+      this.bot.log.debug(`Sending ${ message.text } to ${ message.channel }`);
+      this.socket.call('msg', [message.txt]);
+    }
+  }, {
+    key: 'buildUser',
+    value: function buildUser(msg) {
+      return {
+        id: msg.user_id,
+        username: msg.user_name,
+        roles: msg.roles,
+        level: msg.level
+      };
+    }
+  }, {
+    key: 'cacheUser',
+    value: function cacheUser(user) {
+      this.userCache[user.id] = _extends({}, this.userCache[user.id], user);
+    }
+  }, {
+    key: 'beamMessage',
+    value: (() => {
+      var _ref = _asyncToGenerator(function* (msg) {
+        var _this2 = this;
+
+        const { user_name, user_id, channel, user_roles } = msg;
+        if (user_name === this.beamUser.user_name) {
+          return;
+        }
+        this.bot.log.debug(content);
+
+        const beamUser = this.buildUser(msg);
+        this.cacheUser(beamUser);
+
+        const user = yield this.getUser(user_id, user_name, beamUser);
+
+        msg.message.filter(function (m) {
+          return m.type === 'text';
+        }).forEach(function (m) {
+          if (m.whisper) {
+            return _get(BeamAdapter.prototype.__proto__ || Object.getPrototypeOf(BeamAdapter.prototype), 'receiveWhisper', _this2).call(_this2, { user, text: m.text, channel });
+          }
+
+          _this2.receive({ user, text: m.text, channel });
+        });
+      });
+
+      function beamMessage(_x) {
+        return _ref.apply(this, arguments);
+      }
+
+      return beamMessage;
+    })()
+  }, {
+    key: 'getUserIdByUserName',
+    value: (() => {
+      var _ref2 = _asyncToGenerator(function* (name) {
+        let user = this.userCache.find(function (u) {
+          return u.username === name;
+        });
+        if (user) {
+          return user.id;
+        }
+
+        try {
+          const res = yield this.client.request('/GET', 'users/search', {
+            qs: {
+              where: `username:eq:${ name }`
+            }
+          });
+
+          if (res.body && res.body[0] && res.body[0].id) {
+            this.cacheUser({
+              id: res.body[0].id,
+              name
+            });
+
+            return res.body[0].id;
+          }
+        } catch (e) {
+          this.bot.log.warn(e);
+        }
+      });
+
+      function getUserIdByUserName(_x2) {
+        return _ref2.apply(this, arguments);
+      }
+
+      return getUserIdByUserName;
+    })()
+  }, {
+    key: 'getRoleIdByRoleName',
+    value: function getRoleIdByRoleName(name) {
+      return name;
+    }
+  }, {
+    key: 'getRolesForUser',
+    value: function getRolesForUser(userId) {
+      if (this.roleMapping && this.adapterUsers && this.adapterUsers[userId]) {
+        return this.adapterUsers[userId].roles.filter(role => this.roleMapping[role]).map(role => this.roleMapping[role]);
+      }
+
+      return [];
+    }
+  }, {
+    key: 'getRoles',
+    value: function getRoles(adapterUserId, adapterUser) {
+      if (adapterUser.roles) {
+        return adapterUser.roles.map(role => role.name);
+      }
+
+      return !1;
+    }
+  }]);
+
+  return BeamAdapter;
+}(__WEBPACK_IMPORTED_MODULE_2__exoplay_exobot__["Adapter"]), _class.type = 'beam', _temp);
+
+
+/***/ }
+/******/ ])));
+//# sourceMappingURL=beam.js.map

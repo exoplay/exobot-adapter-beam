@@ -1,6 +1,6 @@
 {
   "name": "@exoplay/exobot-adapter-beam",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "exobot adapter for beam",
   "main": "beam.js",
   "scripts": {
@@ -27,10 +27,10 @@
     "beam-client-node": "^0.10.1"
   },
   "peerDependencies": {
-    "@exoplay/exobot": "3.x"
+    "@exoplay/exobot": "4.x"
   },
   "devDependencies": {
-    "@exoplay/exobot": "3.x",
-    "@exoplay/exobot-build": "^0.0.6"
+    "@exoplay/exobot": "4.x",
+    "@exoplay/exobot-build": "^0.2.1"
   }
 }

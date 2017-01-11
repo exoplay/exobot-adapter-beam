@@ -8,8 +8,8 @@ export const EVENTS = {
   //UserJoin: 'beamPresence',
 };
 
-export class BeamAdapter extends Adapter {
-  name = 'beam';
+export default class BeamAdapter extends Adapter {
+  static type = 'beam';
 
   userCache = {};
 
@@ -136,6 +136,8 @@ export class BeamAdapter extends Adapter {
       } else {
         return;
       }
+    } catch (e) {
+      this.bot.log.warn(e);
     }
   }
 
